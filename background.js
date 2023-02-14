@@ -224,6 +224,7 @@ const popupWindow = (tab, targetUrl, winTop, winLeft) => {
   else {
     setting.tabId = tab.id;
   }
+  console.log("launching window");
   chrome.windows.create(setting, windowInfo => {
     chrome.windows.update(windowInfo.id,{focused: true, state: 'maximized'});
     addToPopupMapping(windowInfo, tab.windowId);
