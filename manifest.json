@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "__MSG_extName__",
   "version": "0.1.0",
-  "homepage_url": "https://github.com/ettoolong/PopupWindow",
+  "homepage_url": "https://github.com/JonathanBittner/PopupWindow",
   "icons": {
     "16": "icon/icon.svg",
     "32": "icon/icon.svg",
@@ -13,13 +13,13 @@
   },
   "applications": {
     "gecko": {
-      "id": "PopupWindow@ettoolong",
+      "id": "MaxPopupWindow@JonathanBittner",
       "strict_min_version": "66.0"
     }
   },
   "developer": {
-    "name": "Ett Chung",
-    "url": "https://github.com/ettoolong/PopupWindow"
+    "name": "Jonathan Bittner",
+    "url": "https://github.com/JonathanBittner/PopupWindow"
   },
   "background": {
     "scripts": ["background.js"]
