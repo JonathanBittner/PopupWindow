@@ -212,10 +212,11 @@ const popupWindow = (tab, targetUrl, winTop, winLeft) => {
 
   let setting = {
     type: 'popup',
-    top: top,
+    /*top: top,
     left: left,
     width: width,
-    height: height,
+    height: height,*/
+    state: 'maximized'
   };
   if(targetUrl) {
     setting.url = targetUrl;
